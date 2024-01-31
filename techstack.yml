@@ -1,0 +1,44 @@
+repo_name: Azem1hyseni/Azem-Hyseni
+report_id: 916ad714ee252cc3cd42ade6635e4bf7
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:45:06+00:00'
+requested_by: Azem1hyseni
+provider: github
+branch: circleci-project-setup
+detected_tools_count: 3
+tools:
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/Azem1hyseni/Azem-Hyseni/blob/circleci-project-setup/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Software developer
+  last_updated_on: 2023-01-23 10:21:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Azem1hyseni/Azem-Hyseni
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Azem1hyseni/Azem-Hyseni/blob/circleci-project-setup/.github/workflows/aws.yml
+  detection_source: ".github/workflows/aws.yml"
+  last_updated_by: Software developer
+  last_updated_on: 2023-11-24 11:43:58.000000000 Z
